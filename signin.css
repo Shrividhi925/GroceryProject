@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); */
+
+
+
+.log{
+    background: url(./images/bg\ login.jpg) no-repeat ;
+    margin: 0;
+    top: 0; left: 0 ;
+    width: auto;
+    height: 600px;
+    padding-top: 5%;
+    justify-content: center;
+    padding-bottom:8%;
+    padding-left: 10%;
+
+}
+
+.container .main h1{
+    padding: 30px 40px;
+    margin: -11px -51px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+
+}
+
+hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 2px solid rgb(21, 31, 27);
+    margin-bottom: 40px;
+}
+
+.container{
+    padding-left: 26%;
+}
+
+.container {
+    
+    width: auto;
+    height: 500px;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.main{
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+    padding: 10px 50px ;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 11px;
+    font-family: 'Raleway';
+    float: left;
+    margin-top: 50px;
+}
+form .form3{
+    padding-top: 25px;
+}
+
+input.user[type=text],input.pwd[type=password],input.num[type=password]{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    border-radius: 5px;
+    background: #eee;
+
+}
+
+.form3 label{
+    color: #464646;
+    text-shadow:  0 1px 0 #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+center{
+    font-size: 40px;
+}
+
+.back{
+    text-decoration: none;
+    border: 1px solid rgb(0,143,255);
+    background-color: rgb(0,214,255);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: #000000;
+}
+
+
+input.btn[type=button]{
+    font-size: 17px;
+    border: 1px solid #0d6443;
+    /* color: var(--black); */
+    /* background-color:var(--green); */
+    font-weight: bold;
+    cursor: pointer;
+    /* display: inline; */
+    justify-content: center;
+    width:49%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    outline: none;
+}
+
+input.btn[type=button]:hover{
+    background: linear-gradient(#ebb045 5%,  #f7c626 100%);
+
+}
+
+
+.new{
+    padding-top: 30px;
+    padding-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.new p{
+    color: black;
+    font-weight: 800px;
+}
+
+input.btn1[type=button]{
+    background: url(./images/bg\ login.jpg); 
+    color: rgb(6, 6, 7);
+    font-size: 17px;
+    border: 0px solid white;
+}
+
+input.btn1[type=button]:hover{
+cursor: pointer;
+}
+
+
+@media(max-width:991px){
+    .log{
+        width: auto;
+        height: auto;
+    }
+}

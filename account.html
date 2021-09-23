@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="loginStyle.css"> -->
+    <link rel="stylesheet" href="account.css">
+    <script src="account.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Groceirs</a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="#log">Sign in</a>
+                <!-- <a href="#contact">Contact</a> -->
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- new login form  -->
+
+    <section class="log" >
+        <div class="container">
+            <div class="main" id="log">
+                <h1>Create Account</h1>
+                <hr>
+                <form action="" id="form_id" method="POST" name="myform" class="form3">
+                    <label for="">Name :</label>
+                    <input class="user" type="text" name="name" id="name" required>
+    
+                    <label for="">Email : </label>
+                    <input class="user" type="text" name="username" id="username" required>
+                    <br>
+                    <label for="">Password : </label>
+                    <input class="pwd" type="password" name="password" id="password" required>
+
+                    <label for="">Confirm Password : </label>
+                    <input class="pwd" type="password" name="confirm_password" id="confirm_password" required>
+
+                    <input class="btn2" type="button" value="Register" id="submit" onclick="validate()">
+                    <!-- <input class="btn" type="button" value="Reset" id="submit" onclick="clearFunc()"> -->
+                </form>
+                <div class="new">
+                    <p>Already a User?
+                <input class="btn1" type="button" value="Login" id="submit" onclick="move()"></p>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!-- Contact section  -->
+    <!-- <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact </span> Us</h1>
+       <form action="">
+           <div class="inputBox">
+               <input type="text" placeholder="Name">
+               <input type="email" placeholder="Email">
+           </div>
+   
+           <div class="inputBox">
+               <input type="number" placeholder="Number">
+               <input type="text" placeholder="Subject">
+           </div>
+           <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+   
+           <input type="submit" value="send message" name="" id="" class="btn">
+       </form>
+    </section>
+    <br><br><br> -->
+
+    
+<!-- Newsletter section  -->
+<section class="newsletter">
+    <h3>Subscribe us for latest updates</h3>
+
+    <form action="">
+        <input class="box" type="email" placeholder="Enter your email">
+        <input type="submit" value="Subscribe" class="btn">
+    </form>
+</section>
+
+<!-- Footer section  -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestias eum ipsa nam tempore facilis beatae perferendis aspernatur? Architecto laboriosam tempore beatae totam ut distinctio cum perferendis ex ipsum porro!</p>
+            <div class="share">
+                <a href="#" class="btn fab fa-facebook-f"></a>
+                <a href="#" class="btn fab fa-twitter"></a>
+                <a href="#" class="btn fab fa-instagram"></a>
+                <a href="#" class="btn fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Our location</h3>
+            <div class="links">
+                <a href="#">India</a>
+                <a href="#">Usa</a>
+                <a href="#">France</a>
+                <a href="#">Japan</a>
+                <a href="#">Russia</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <div class="links">
+                <a href="#">home</a>
+                <a href="#">category</a>
+                <a href="#">product</a>
+                <a href="#">deal</a>
+                <a href="#">contact</a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">window xp</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="credit"> <span>Copyright &copy;   </span>| all rights reserved !!</h1>
+</section>
+
+
+ 
+<script src="script.js"></script>
+<!-- <script src="loginScript.js"></script> -->
+
+</body>
+</html>

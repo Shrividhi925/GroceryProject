@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="signin.js"></script>
+</head>
+<body>
+    <section class="log" id="log">
+    <div class="container">
+        <div class="main">
+            <h1>Login Form</h1>
+            <hr>
+            <form action="" id="form_id" method="POST" name="myform" class="form3">
+                <label for="">User Name :</label>
+                <input class="user" type="text" name="username" id="username" required>
+
+                <label for="">Password : </label>
+                <input class="pwd" type="password" name="password" id="password" required>
+
+
+                <input class="btn" type="button" value="Login" id="submit" onclick="validate()">
+                <input class="btn" type="button" value="Reset" id="submit" onclick="clearFunc()">
+            </form>
+            <div class="new">
+                <p>New User?
+                <input class="btn1" type="button" value="Create an Account" id="submit" onclick="move()"></p>
+        </div>
+    </div>
+</div>
+</section>
+</body>
+</html>
