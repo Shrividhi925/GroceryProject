@@ -480,7 +480,7 @@ section{
 }
 
 .newsletter{
-    background: url(images/newsletter-bg.jpg) no-repeat;
+    background: url(newsletter-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
