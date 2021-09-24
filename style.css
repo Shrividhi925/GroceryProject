@@ -68,7 +68,7 @@ section{
     /* background: rgb(27, 247, 137); */
     background: #eee;
 
-    background: url(head.jpg);
+    background: url(./images/head.jpg);
     display: flex;
     align-items: center;
     justify-content: space-between;
