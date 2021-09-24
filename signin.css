@@ -4,7 +4,7 @@
 
 
 .log{
-    background: url(./images/bg\ login.jpg) no-repeat ;
+    background: url(bg\ login.jpg) no-repeat ;
     margin: 0;
     top: 0; left: 0 ;
     width: auto;
@@ -127,7 +127,7 @@ input.btn[type=button]:hover{
 }
 
 input.btn1[type=button]{
-    background: url(./images/bg\ login.jpg); 
+    background: url(bg\ login.jpg); 
     color: rgb(6, 6, 7);
     font-size: 17px;
     border: 0px solid white;
